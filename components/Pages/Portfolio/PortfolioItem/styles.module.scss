@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+}
+
+.portfolio_item {
+  &_image {
+    width : 100%;
+    height: 250px;
+
+    @media (max-width: 768px) {
+      height: 45vw;
+    }
+  }
+
+  &_overlay {
+    cursor          : pointer;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    position        : absolute;
+    top             : 0;
+    left            : 0;
+    width           : 100%;
+    height          : 250px;
+    background-color: #3854ea;
+    z-index         : 1;
+    opacity         : 0;
+    transition      : .3s all;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  &_name {
+    color      : white;
+    font-size  : 20px;
+    font-weight: 600;
+  }
+}

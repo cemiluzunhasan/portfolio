@@ -1,0 +1,43 @@
+@import 'styles/constants/globals.scss';
+
+.container {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  flex           : 1;
+  height         : 100%;
+  padding        : 0 50px;
+  background     : #f9f9f9bf;
+
+  h1 {
+    margin-bottom: 50px;
+  }
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
+
+.nav {
+  text-align: left;
+  width     : 100%;
+
+  a {
+    display        : block;
+    letter-spacing : 1px;
+    font-size      : 18px;
+    text-decoration: none;
+    margin-bottom  : 15px;
+    transition     : .3s all;
+
+    &:active,
+    &:visited {
+      color: rgb(117, 117, 117);
+    }
+
+    &:hover {
+      color    : black;
+      transform: translateX(10px);
+    }
+  }
+}

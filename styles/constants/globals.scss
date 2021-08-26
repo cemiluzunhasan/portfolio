@@ -1,0 +1,21 @@
+@import './variables.scss';
+
+.center-all {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  flex-direction : column;
+}
+
+.wrapper {
+  width    : 1200px;
+  max-width: 94%;
+  margin   : 0 auto;
+}
+
+.card {
+  background   : linear-gradient(145deg, map-get($colors, "mystic"), map-get($colors, "white"));
+  box-shadow   : 0px 3px 7px 0px #d1d9e6;
+  padding      : 30px;
+  margin-bottom: 30px;
+}

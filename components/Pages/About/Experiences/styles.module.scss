@@ -1,0 +1,32 @@
+@import 'styles/constants/variables.scss';
+
+.container {
+  flex        : 1;
+  margin-right: 30px;
+
+  @media (max-width: 768px) {
+    margin-right: 0;
+  }
+}
+
+.experience {
+  &_item {
+    p {
+      line-height: 1.5;
+    }
+
+    &_summary {
+      // flex: 1;
+    }
+
+    &_description {}
+
+    &_company {
+      display: inline-block;
+    }
+
+    .date {
+      margin-top: 0;
+    }
+  }
+}

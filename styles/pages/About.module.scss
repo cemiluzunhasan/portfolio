@@ -1,0 +1,27 @@
+@import "styles/constants/variables.scss";
+
+.container {
+  // overflow-y: scroll;
+}
+
+.header {
+  font-size: 42px;
+}
+
+.info {
+  &_name {
+    color: map-get($colors, "blue");
+  }
+
+  &_text {
+    line-height: 1.5;
+  }
+}
+
+.timeline {
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,16 @@
+.container {
+  display      : inline-block;
+  border-width : 1px 2px 2px 1px;
+  border-color : #222;
+  border-style : solid;
+  background   : #333333;
+  margin-bottom: 5px;
+  color        : #E8E8E8;
+  padding      : 8px 16px;
+  border-radius: 3px;
+  font-size    : 12px;
+  font-weight  : bold;
+  cursor       : pointer;
+  transition   : all 0.3s;
+  margin       : 0 10px 20px 0;
+}

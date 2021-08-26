@@ -1,0 +1,36 @@
+.container {
+  display              : grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top           : 60px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.info {
+  &_item {
+    margin-bottom: 30px;
+
+    @media (max-width: 768px) {
+      * {
+        font-size: 12px;
+      }
+    }
+
+    &_name {
+      display    : inline-block;
+      min-width  : 200px;
+      font-weight: bold;
+
+      @media (max-width: 768px) {
+        min-width: 150px;
+      }
+    }
+
+    &_value {
+      font-weight: 300;
+      word-break : break-word;
+    }
+  }
+}

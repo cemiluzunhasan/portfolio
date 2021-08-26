@@ -1,0 +1,13 @@
+@import 'styles/constants/globals.scss';
+
+.container {
+  flex       : 4;
+  overflow-y : scroll;
+  padding-top: 100px;
+
+  @media (max-width: 900px) {
+    padding-top: 0;
+  }
+
+  // @extend .center-all;
+}
