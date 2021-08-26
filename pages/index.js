@@ -8,16 +8,16 @@ export default function Home() {
         <h1 className={styles.name}>Cemil Uzunhasan</h1>
         <p>Software Engineer & Frontend Engineer</p>
         <div className={styles.social}>
-          <a href="https://linkedin.com/in/cemiluzunhasan" target="_blank">
+          <a href="https://linkedin.com/in/cemiluzunhasan" target="_blank" rel="noreferrer">
             <img src="/linkedin.svg" className={styles.social_item} />
           </a>
-          <a href="https://github.com/cemiluzunhasan" target="_blank">
+          <a href="https://github.com/cemiluzunhasan" target="_blank" rel="noreferrer">
             <img src="/github.svg" className={styles.social_item} />
           </a>
-          <a href="https://twitter.com/kivircikgitarci" target="_blank">
+          <a href="https://twitter.com/kivircikgitarci" target="_blank" rel="noreferrer">
             <img src="/twitter.svg" className={styles.social_item} />
           </a>
-          <a href="https://instagram.com/cemiluzunhasan" target="_blank">
+          <a href="https://instagram.com/cemiluzunhasan" target="_blank" rel="noreferrer">
             <img src="/instagram.svg" className={styles.social_item} />
           </a>
         </div>
