@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className={styles.Home}>
       <picture>
-        <source srcset="/avatar.webp" type="image/webp" className={styles.avatar} />
+        <source srcSet="/avatar.webp" type="image/webp" className={styles.avatar} />
         <img src="/avatar.png" className={styles.avatar} />
       </picture>
       <div className={styles.info}>
