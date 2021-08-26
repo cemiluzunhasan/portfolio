@@ -1,5 +1,4 @@
 import { useCallback, useMemo, useState } from 'react';
-import Image from 'next/image';
 import Arrows from './Arrows';
 
 import styles from './styles.module.scss';
