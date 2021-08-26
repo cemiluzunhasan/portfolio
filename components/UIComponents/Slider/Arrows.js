@@ -1,9 +1,8 @@
 import { memo } from 'react';
-import Image from 'next/image';
 
 import styles from './styles.module.scss';
 
-const Arrows = memo(({ prevSlide, nextSlide }) => {
+const Arrows = ({ prevSlide, nextSlide }) => {
 
   return (
     <>
@@ -15,6 +14,6 @@ const Arrows = memo(({ prevSlide, nextSlide }) => {
       </div>
     </>
   );
-});
+};
 
-export default Arrows;
+export default memo(Arrows);
