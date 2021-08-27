@@ -15,7 +15,7 @@ const PortfolioDetail = () => {
   }, [id]);
 
   return (
-    project && <>
+    project ? <>
       <Head>
         <title>{title} - Cemil Uzunhasan</title>
         <meta name="description" content={`Learn more about the frontend project of ${project.name}`} />
@@ -35,6 +35,8 @@ const PortfolioDetail = () => {
         <Slider images={project.images} />
       </div>
     </>
+      :
+      <div></div>
   );
 };
 
