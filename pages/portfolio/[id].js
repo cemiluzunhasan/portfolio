@@ -17,7 +17,7 @@ const PortfolioDetail = () => {
   return (
     project ? <>
       <Head>
-        <title>{title} - Cemil Uzunhasan</title>
+        <title>{project.name} - Cemil Uzunhasan</title>
         <meta name="description" content={`Learn more about the frontend project of ${project.name}`} />
         <meta property="og:title" content={`${project.name} - Cemil Uzunhasan`} />
         <meta property="og:description" content={`Learn more about ${project.name}`} />
