@@ -1,5 +1,7 @@
-import Progress from 'components/UIComponents/Progress';
+import dynamic from 'next/dynamic';
 import styles from './styles.module.scss';
+
+const Progress = dynamic(() => import('components/UIComponents/Progress'));
 
 const Skills = () => {
   return (

@@ -1,6 +1,8 @@
+import dynamic from 'next/dynamic';
 import styles from 'styles/pages/Portfolio.module.scss';
 import { PORTFOLIO } from 'helpers/constants';
-import PortfolioItem from 'components/Pages/Portfolio/PortfolioItem';
+
+const PortfolioItem = dynamic(() => import('components/Pages/Portfolio/PortfolioItem'));
 
 const Portfolio = () => {
   return (

@@ -1,9 +1,12 @@
-import Education from 'components/Pages/About/Education';
-import Experiences from 'components/Pages/About/Experiences';
-import Info from 'components/Pages/About/Info';
-import Skills from 'components/Pages/About/Skills';
-
+import dynamic from 'next/dynamic';
 import styles from 'styles/pages/About.module.scss';
+
+const Education = dynamic(() => import('components/Pages/About/Education'));
+const Info = dynamic(() => import('components/Pages/About/Info'));
+const Experiences = dynamic(() => import('components/Pages/About/Experiences'));
+const Skills = dynamic(() => import('components/Pages/About/Skills'));
+
+
 
 const About = () => {
   return (

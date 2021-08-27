@@ -1,7 +1,9 @@
 import { useCallback, useMemo, useState } from 'react';
-import Arrows from './Arrows';
-
+import dynamic from 'next/dynamic';
 import styles from './styles.module.scss';
+
+const Arrows = dynamic(() => import('./Arrows'));
+
 
 const Slider = ({ images }) => {
   const [current, setCurrent] = useState(0);
