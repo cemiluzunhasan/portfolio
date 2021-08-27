@@ -1,8 +1,6 @@
-import dynamic from "next/dynamic";
-
-const LeftMenu = dynamic(() => import("components/Layout/LeftMenu"));
-const RightMenu = dynamic(() => import("components/Layout/RightMenu"));
-const HamburgerMenu = dynamic(() => import("components/UIComponents/HamburgerMenu"));
+import LeftMenu from "components/Layout/LeftMenu";
+import RightMenu from "components/Layout/RightMenu";
+import HamburgerMenu from "components/UIComponents/HamburgerMenu";
 
 import "styles/main.scss";
 

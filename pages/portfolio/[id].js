@@ -1,12 +1,10 @@
 import { useMemo } from 'react';
 import { useRouter } from 'next/router';
-import dynamic from 'next/dynamic';
 import { PORTFOLIO } from 'helpers/constants';
-
-const Slider = dynamic(() => import('components/UIComponents/Slider'));
-const TechItem = dynamic(() => import('components/Pages/Portfolio/TechItem'));
+import Slider from 'components/UIComponents/Slider';
 
 import styles from 'styles/pages/PortfolioDetail.module.scss';
+import TechItem from 'components/Pages/Portfolio/TechItem';
 
 const PortfolioDetail = () => {
   const { query: { id } } = useRouter();
