@@ -9,10 +9,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <style jsx global>{`
-          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
-          `}
-          </style>
+
         </Head>
         <body>
           <Main />

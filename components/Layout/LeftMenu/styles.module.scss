@@ -23,12 +23,11 @@
   width     : 100%;
 
   a {
-    display        : block;
-    letter-spacing : 1px;
-    font-size      : 18px;
-    text-decoration: none;
-    margin-bottom  : 15px;
-    transition     : .3s all;
+    display       : block;
+    letter-spacing: 1px;
+    font-size     : 18px;
+    margin-bottom : 15px;
+    transition    : .3s all;
 
     &:active,
     &:visited {
