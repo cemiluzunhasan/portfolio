@@ -16,7 +16,6 @@ const Info = () => {
       <InfoItem name="E-mail" value="cmluzunhasan@gmail.com" />
       <InfoItem name="Address" value="Berlin / Germany" />
       <InfoItem name="Marital Status" value="Single" />
-      <InfoItem name="Military Status" value="Delayed" />
       <InfoItem name="Driving License" value="B Class" />
       <InfoItem name="Languages" value="English (C1) - Turkish (Native Lang.)" />
       <InfoItem name="Birthday" value="01 March 1997" />
