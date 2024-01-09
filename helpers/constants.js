@@ -82,6 +82,19 @@ export const EDUCATION = [
 
 export const PORTFOLIO = [
   {
+    id: 0,
+    name: 'Store Management',
+    description: "The global Store Management dashboard which is used in all entities of Delivery Hero around the world. It's used for keeping track of a store's orders. Also rendering the Inventory Management & Picker Management as a micro app using Micro Frontend technology",
+    technologies: ['React', 'Typescript', 'Micro-Frontend', 'React Query', 'Redux Saga'],
+    link: '',
+    images: [
+      '/images/store-mgmt/1.png',
+      '/images/store-mgmt/2.png',
+      '/images/store-mgmt/3.png',
+    ],
+    color: '#D61F26',
+  },
+  {
     id: 1,
     name: 'Europcar',
     description: "Dashboard of the Europcar which allows you to manage reservations, cars, rates and other things that a car rental company should have",
