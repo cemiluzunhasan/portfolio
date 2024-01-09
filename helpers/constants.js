@@ -10,12 +10,21 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
+    id: 0,
+    companyName: 'Delivery Hero',
+    title: 'Software Engineer',
+    description: "Software Engineer in Delivery Hero. I'm responsible from Frontend part and maintaining the global Store Management Project",
+    startDate: '11.2021',
+    endDate: 'Present',
+    tag: 'Full Time',
+  },
+  {
     id: 1,
     companyName: 'Piksel Mutfak',
     title: 'Frontend Engineer',
     description: 'Frontend Engineer in Piksel Mutfak consultancy firm. Worked as an outsource to Anadolu Sigorta and Netax. Did İBB-BİO, İGDAŞ, Asenta, Coach Hero, NeredeKal projects',
     startDate: '02.2021',
-    endDate: 'Present',
+    endDate: '11.2021',
     tag: 'Full Time',
   },
   {
