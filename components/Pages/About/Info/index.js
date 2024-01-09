@@ -14,8 +14,7 @@ const Info = () => {
       <InfoItem name="Nationality" value="Turkish" />
       <InfoItem name="Current Title" value="Frontend Engineer" />
       <InfoItem name="E-mail" value="cmluzunhasan@gmail.com" />
-      <InfoItem name="Phone" value="+90 (534) 727 52 46" />
-      <InfoItem name="Address" value="İstanbul / Turkey" />
+      <InfoItem name="Address" value="Berlin / Germany" />
       <InfoItem name="Marital Status" value="Single" />
       <InfoItem name="Military Status" value="Delayed" />
       <InfoItem name="Driving License" value="B Class" />
