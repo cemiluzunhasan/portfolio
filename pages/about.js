@@ -13,7 +13,7 @@ const About = () => {
         <div className={styles.info}>
           <h3>Hi, I'm <span className={styles.info_name}>Cemil UZUNHASAN</span></h3>
           <p className={styles.info_text}>
-            I'm a Turkish based Front-End &amp; Mobile developer focused on
+            I'm Berlin based Front-End &amp; Mobile developer focused on
             crafting clean &amp; user‑friendly experiences, I am passionate about building excellent
             software that improves the lives of those around me.
           </p>
